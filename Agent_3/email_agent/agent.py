@@ -9,7 +9,7 @@ class EmailInput(BaseModel):
 root_agent = LlmAgent(
     name="agent",
     description="An agent that can help build a proffesional email with a structured subject and body.",
-    model="gemini-2.0-flash-lite",
+    model="gemini-2.0-flash",
     instruction="""
         You are email generation agent.
         Your task is to provide a structured email with a subject and body based on the user's request.
